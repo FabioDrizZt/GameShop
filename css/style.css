@@ -1,5 +1,5 @@
 /* Importar la fuente de Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 /* Estilos generales */
 * {
@@ -12,10 +12,10 @@
 :root {
   --background-primary: #222222;
   --background-secondary: #f4f4f4;
-  --red-color: #D01418;
+  --red-color: #d01418;
   --white-color: #ffff;
-  --outside-color: #38454F;
-  --envio-color: #619D00;
+  --outside-color: #38454f;
+  --envio-color: #619d00;
 }
 
 /* Estilos para la lista sin viñetas */
@@ -25,7 +25,7 @@ li {
 
 /* Estilos del body */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0 auto;
   background-color: var(--outside-color);
 }
@@ -44,7 +44,7 @@ header {
   margin: 0 auto;
 }
 
-header>div {
+header > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,8 +66,8 @@ header img {
 }
 
 /* Estilos para los enlaces y botones */
-li>a,
-.hero>a {
+li > a,
+.hero > a {
   color: var(--white-color);
   text-decoration: none;
   margin: 0px 10px;
@@ -75,7 +75,7 @@ li>a,
 }
 
 /* Estilos para el ícono en los enlaces */
-a>i {
+a > i {
   color: var(--red-color);
   padding: 0px 20px;
   font-size: 1.5rem;
@@ -112,7 +112,7 @@ main {
 
 /* Estilos para el héroe */
 .hero {
-  background-image: url("../img/hero-desk.png");
+  background-image: url("../img/fondo\ premain.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -136,14 +136,14 @@ h1 span {
 }
 
 /* Estilos para el enlace en el héroe */
-.hero>a {
+.hero > a {
   background-color: var(--red-color);
   padding: 16px 61px;
   font-weight: 500;
   font-size: 1.35rem;
 }
 
-.hero>a:hover {
+.hero > a:hover {
   background-color: yellow;
   color: black;
   transition: 1s;
@@ -158,15 +158,15 @@ h1 span {
 }
 
 /* Estilos para los títulos de sección */
-.productos-destacados>h2,
-.productos-estrella>h2 {
+.productos-destacados > h2,
+.productos-estrella > h2 {
   font-weight: 400;
   font-size: 2rem;
   padding-bottom: 10px;
 }
 
 /* Estilos para el contenedor de los productos destacados */
-.productos-destacados>div {
+.productos-destacados > div {
   width: 80%;
   display: flex;
   justify-content: space-around;
@@ -189,7 +189,7 @@ h1 span {
 }
 
 /* Estilos para la imagen del juego en la tarjeta */
-.card>img {
+.card > img {
   width: 129px;
   height: 163px;
   margin: 30px 68px;
@@ -228,7 +228,7 @@ hr {
 }
 
 /* Estilos para los contenedores de los productos estrella */
-.productos-estrella>div {
+.productos-estrella > div {
   display: flex;
 }
 
@@ -284,14 +284,14 @@ footer {
 }
 
 /* Estilos para el logotipo en el pie de página */
-footer>img {
+footer > img {
   height: 40px;
   width: 183px;
   margin-left: 75px;
 }
 
 /* Estilos para los elementos en el pie de página */
-footer>div {
+footer > div {
   margin-right: 75px;
 }
 
@@ -318,22 +318,21 @@ footer div h3 {
 
 /* Estilos para los íconos de Twitter */
 .twitter {
-  color: #14AED0;
+  color: #14aed0;
 }
 
 /* Estilos para los íconos de Facebook */
 .facebook {
-  color: #1476D0;
+  color: #1476d0;
 }
 
 /* Estilos para los íconos de Instagram */
 .instagram {
-  color: #CE0CFF;
+  color: #ce0cff;
 }
 
 /* Media queries para pantallas de hasta 950px */
 @media screen and (max-width: 950px) {
-
   /* Ajustar el ancho del título del héroe */
   .hero h1 {
     width: 500px;
@@ -351,7 +350,6 @@ footer div h3 {
 
 /* Media queries para pantallas de hasta 700px */
 @media screen and (max-width: 700px) {
-
   /* Estilos para el efecto de subrayado en la barra de navegación en pantallas pequeñas */
   nav::before {
     content: "";
@@ -373,7 +371,6 @@ footer div h3 {
 
 /* Media queries para pantallas de hasta 475px */
 @media screen and (max-width: 475px) {
-
   /* Ajustar el ancho del título del héroe */
   .hero h1 {
     width: 350px;
@@ -381,7 +378,7 @@ footer div h3 {
   }
 
   /* Ajustar el diseño de los productos destacados */
-  .productos-destacados>div {
+  .productos-destacados > div {
     flex-wrap: wrap;
   }
 
@@ -391,7 +388,7 @@ footer div h3 {
   }
 
   /* Ajustar el diseño de los productos estrella */
-  .productos-estrella>div {
+  .productos-estrella > div {
     flex-direction: column;
   }
 
